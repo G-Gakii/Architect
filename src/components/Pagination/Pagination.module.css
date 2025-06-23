@@ -1,0 +1,24 @@
+/* .hero_pagenumber {
+  div {
+    margin: 0;
+    padding: 0;
+  }
+  color: var(--gray);
+  display: flex;
+  gap: 2rem;
+  align-items: start;
+  font-size: 1.5rem;
+}
+.left_arrow {
+  background-color: var(--white);
+  border: 1px solid var(--gray);
+  img {
+    filter: invert(100%) brightness(0%);
+  }
+}
+.right_arrow {
+  background-color: var(--lightGray);
+  img {
+    filter: invert(100%) brightness(0%);
+  }
+} */

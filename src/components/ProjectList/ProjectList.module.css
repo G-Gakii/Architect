@@ -1,0 +1,25 @@
+.project {
+  display: flex;
+  background-color: var(--lightGray);
+  img {
+    width: 50%;
+    object-fit: cover;
+    height: auto;
+  }
+  h2 {
+    font-size: 2.5rem;
+    font-weight: 300;
+  }
+  p {
+    line-height: 1.3rem;
+    font-weight: 300;
+  }
+}
+@media screen and (max-width: 768px) {
+  .project {
+    flex-direction: column;
+    img {
+      width: 100%;
+    }
+  }
+}

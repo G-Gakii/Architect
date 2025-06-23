@@ -1,0 +1,25 @@
+@import "../../variables.css";
+
+.container {
+  text-transform: capitalize;
+}
+h2 {
+  font-size: 4rem;
+  font-weight: 300;
+  line-height: 4rem;
+}
+.gallery {
+  color: var(--darkGray);
+  font-weight: 700;
+}
+.horizontal__line {
+  border: 1px solid var(--lightGray);
+  height: 1px;
+  padding: 0;
+}
+@media screen and (max-width: 768px) {
+  h2 {
+    font-size: 2rem;
+    line-height: 2rem;
+  }
+}

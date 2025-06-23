@@ -1,0 +1,12 @@
+@import "../../variables.css";
+.btn {
+  background-color: var(--white);
+  color: var(--darkGray);
+  margin-top: 2rem;
+
+  img {
+    max-width: 16px;
+
+    filter: invert(100%) brightness(0%);
+  }
+}

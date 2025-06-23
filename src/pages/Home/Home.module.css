@@ -1,0 +1,9 @@
+div {
+  padding: 1.5rem;
+}
+
+@media screen and (max-width: 768px) {
+  div {
+    padding: 0.5rem;
+  }
+}
