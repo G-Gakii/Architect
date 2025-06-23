@@ -1,5 +1,6 @@
 .project {
   display: flex;
+  gap: 1rem;
   background-color: var(--lightGray);
   img {
     width: 50%;

@@ -6,7 +6,7 @@ import styles from "./Certificate.module.css";
 
 const Certification = () => {
   return (
-    <div>
+    <div className={styles.certification__container}>
       <Navbar />
       <Header header1="Company" header2="certifications" />
       <section className={styles.section}></section>
