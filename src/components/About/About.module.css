@@ -3,7 +3,7 @@
   margin-bottom: 0;
   display: grid;
   padding-bottom: 1rem;
-  gap: 1rem;
+  gap: 2rem;
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: repeat(200px, 200px 200px);
   background-color: var(--lightGray);
